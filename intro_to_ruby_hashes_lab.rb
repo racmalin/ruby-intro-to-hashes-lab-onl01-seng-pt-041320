@@ -1,11 +1,11 @@
 def new_hash
 
-  hash = Hash.new
+  hash = hash.new
   hash
 end	
 
 
-def actor	def actor
+def actor	
 
   hash = {:name => "Dwayne The Rock Johnson"}
   hash
@@ -23,8 +23,7 @@ end
 
 
 
-def monopoly_with_second_tier	def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!		#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+def monopoly_with_second_tier	
 
 	monopoly = {
     :railroads => {:pieces => 4, :names =>{}, :rent_in_dollars => {}
@@ -34,8 +33,7 @@ def monopoly_with_second_tier	def monopoly_with_second_tier
 end	end
 
 
-def monopoly_with_third_tier	def monopoly_with_third_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!		#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
+def monopoly_with_third_tier	
 
 		monopoly = {
     :railroads => {
@@ -58,8 +56,7 @@ def monopoly_with_third_tier	def monopoly_with_third_tier
 end	end
 
 
-def monopoly_with_fourth_tier	def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!		#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
+def monopoly_with_fourth_tier	
 
 	monopoly = {
     :railroads => {
