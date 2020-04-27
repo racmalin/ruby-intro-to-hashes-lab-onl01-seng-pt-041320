@@ -2,14 +2,14 @@ def new_hash
 
   hash = Hash.new
   hash
-end	end
+end	
 
 
 def actor	def actor
 
   hash = {:name => "Dwayne The Rock Johnson"}
   hash
-end	end
+end	
 
 
 def monopoly	def monopoly
@@ -18,7 +18,9 @@ def monopoly	def monopoly
   }
 
 
-end	end
+end	
+
+
 
 
 def monopoly_with_second_tier	def monopoly_with_second_tier
@@ -85,4 +87,5 @@ def monopoly_with_fourth_tier	def monopoly_with_fourth_tier
   }
 
   }
-end	end
+end	
+end
